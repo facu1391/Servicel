@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavMenu = () => {
   return (
     <nav className="flex items-center gap-7 mx-auto ">
-      <a className="font-medium" href="#" rel="ugc">Equipo</a>
-      <a className="font-medium" href="#" rel="ugc">Accesorios</a>
+      <Link className="font-medium" to="/equipo">Equipo</Link>
+      <Link className="font-medium" to="/accesorios">Accesorios</Link>
       <a className="font-medium" href="#" rel="ugc">Partes</a>
-      <a className="font-medium" href="#" rel="ugc">Servicios</a>
+      <Link className="font-medium" to="/servicios">Servicios</Link>
     </nav>
   );
 }

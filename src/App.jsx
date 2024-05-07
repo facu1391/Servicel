@@ -1,15 +1,11 @@
 import React from 'react'
-import NavBar from './Components/NavBar/Nav';
-import Banner from './Components/Banner/Banner';
-import Cards from './Components/Cards/Cards';
+import Navigation from './Routes/Navigation';
 
 function App() {
 
   return (
     <>
-      <NavBar />
-      <Banner />
-      <Cards />
+      <Navigation />
     </>
   )
 }
